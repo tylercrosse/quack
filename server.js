@@ -1,4 +1,5 @@
 const express = require('express');
+const bot     = require('./controllers/slack.js');
 
 const port = process.env.PORT || 4000;
 const app = express();
@@ -11,5 +12,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`[WEB] Server listening on port ${port}`);
+  console.log(`[🌎 WEB] Server listening on port ${port}`);
 });

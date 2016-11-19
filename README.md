@@ -6,12 +6,12 @@ Slack integration with Alexa Decision Tree
 
 ```sh
 npm i
-touch secrets.json
-# edit secrets.json as described below
+touch env.json
+# edit env.json as described below
 npm start
 ```
 
-in  `secrets.json`
+in  `env.json`
 ```json
 {
   "SLACK_BOT_TOKEN": "",
